@@ -1,0 +1,40 @@
+/* Sets the text decoration to none for tree menu */
+A
+{
+	text-decoration: none;
+}
+/* Style for tree item text */
+.mout {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: .9 em;
+	color: #000000;
+}
+.mover {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: .9 em;
+}
+.t0ic {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: .9 em;
+}
+.t0io {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: .9 em;
+}
+.t1ic {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: .9 em;
+}
+.t1io {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: .9 em;
+}
+.altmover {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: .9 em;
+}
+.altmout {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: .9 em;
+}
+

@@ -1,0 +1,27 @@
+So, this is my practice text file for learning Emacs. I just need to type out
+a bunch of shit so that I can use this file to help me learn how to navigate
+around buffers and such effectively without ever having to use my mouse or the
+menu bars and stuff. Coming up with two or so pages worht of stuff to write is
+gonna be a pain in my ass though. I'm not entirely sure that I'll be able to
+crank out that kind of thing in the amount of time that I'd like to. Though I
+suppose it'll get one regardless, I just might not get it done as quickly as
+I'd like to. And really as long as I get it done I'm in good shape. Really
+glad Jeff helped me change around the look of this window, it's much easier on
+the eyes. Hopefully the syntax highlighting stays the way that it was. I guess
+if it's not I'll be able to make it so by the time I'm done with the Emacs
+book. Honestly I really want to be able to get the JDEE working but I'm not
+sure what the problem with the eLisp stuff is. I guess there's some sort of
+error in one of the cedet files too that's causing an issue, so I'm gonna have
+to work that out somehow. It's all a process though, and I'll be a better
+person for figuring all this out. Plus I'm going to have to start over from
+scratch at the end of the month when I blast Sabayon off this bad larry and
+load up ubuntu 9.10. Gentoo is really nice but I need a distro with a bit more
+stability than this. Once I'm more comfortable with Linux and the way it works
+maybe I'll come back but for now it's going to be much easier to use
+ubuntu. So far I've only managed to come up with a half a page, so that's
+sweet. Perhaps I'll start over and just type out a letter to Sam instead. Hmm,
+this is weird. I wonder if because it's a text file it automatically sees
+where the normal borders would be and keeps them even if the window is
+maximized. This appears to be the case. AHA! Idea! I'm going to save this file
+and come back to it later, but still going to start work on a letter to
+Sam. Man I'm smart.

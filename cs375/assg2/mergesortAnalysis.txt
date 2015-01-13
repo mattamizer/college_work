@@ -1,0 +1,28 @@
+The code is very usable. The user passes in an array of Comparable items and the method sorts it.
+
+
+The code also appears to be complete. If all the customer wants is a sorted array then this code is very complete.
+
+
+I cannot say if the code is robust or not, I would have to run some tests on it.
+
+
+The code is time efficient, but will use a lot of memory with larger arrays that need to be sorted.
+
+
+The code scales well, it should perform just as well on small or extremely large arrays.
+
+
+The code is certainly easy to read. It is commented well and the variable names make sense.
+
+
+It can be reused for different types of elements in the array, but it will never do anything but sort.
+
+
+The design is very simple, which is really beneficial.
+
+
+The code is also maintainable. It would be easy to implement new features of fix any bugs.
+
+
+The code appears to be extensible, though I'm not sure why you would want to extend a sorting algorithm.

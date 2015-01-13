@@ -1,0 +1,55 @@
+For this assignment we were asked to find the meaning and usage of a handful Unix variables. Here is what I found:
+
+autologout - lets you specify the amount of time the shell waits before ending your session. ex: autologout = 5
+
+cdpath - defines additional locations to be searched when you type the cd command. ex: cdpath=($HOME /d1/1nxi/$USER)
+
+color - lets you set the font color of your shell text. ex: color="blue"
+
+cwd - stores the current working directory
+
+owd - stores the last directory you were working in
+
+pwd - stores the present working directory, functions differently from cwd
+
+filec - allows for automatic word completion using the <TAB> or <ESC> key, depending on your shell. This is a boolean variable.
+
+history - sets how many shell commands to save, thus allowing the user to scroll back through previous commands. ex: history = 20
+
+home - stores the path to your HOME directory. If modified, the shell with make the new directory the current working directory.
+
+ignoreeof - if set, ignores the <CTRL + D> command as the EOF command in the shell. This is a boolean variable
+
+implicitcd - causes the shell to treat a directory name typed with 'cd' as a request to change to that directory. ex: implicitcd = Sites
+
+listjobs - when set, all jobs will be listed like the 'jobs' built in command; if it is set to 'long' the listing will be in long format, like 'jobs -l'
+
+loginsh - set by the sheel if it is a login shell. Setting or unsetting it within a shell has no effect.
+
+mail - the names of the files or directories to check for incoming mail
+
+noclobber - if this variable is set, then the file must not exist of be character special file, like a terminal or /dev/null
+
+notify - if set, the shell will notify you immediately of changes of status in background jobs.
+
+path - sets the path where the shell will look for executable commands
+
+prompt - sets a message to display to the user. ex: prompt = This is a prompt.
+
+pushdsilent - if set, pushd and popd do not print the directory stack. This is a boolean variable
+
+pushdtohome - if set, pushd without arguments does 'pushd ~'. This is a boolean variable.
+
+rmstar - if set, the user is prompted before 'rm *' is executed. This is a boolean variable.
+
+rprompt - sets the string to print on the right hand side of the screen when the prompt is being displayed on the left.
+
+savehist - if set, the shell does 'history -S' before exiting. If the first word is set to a number, at most that many lines are saved (number must be less than or equal to history).
+
+shell - the file in which the shell resides.
+
+user - stores the user's login name.
+
+verbose - if set, causes the words of each command to be printed. This is a boolean variable.
+
+visiblebell - if set, a screen flash is used rather than the aubible bell. this is a boolean variable.

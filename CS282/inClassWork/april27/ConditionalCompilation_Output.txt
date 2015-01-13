@@ -1,0 +1,10 @@
+Sizeof customer is 244
+size of int is 4 and sizeof float is 4
+
+Name: Matthew Morrissey
+Account number: 123456
+Balance:   0.00
+tCode: Car
+Quantity: 2000
+Price: 23999.98
+

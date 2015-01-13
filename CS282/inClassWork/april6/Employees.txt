@@ -1,0 +1,23 @@
+Meszaros        347006     81 River Street             Ashby           30
+Hicks           617432     101 Grant Avenue            Pepperell       31
+Chu             724731     233 Maple Street            Leominster      42
+Brown           750977     21 Central Street           Ballard Hill    21
+Latona          100854     105 University Avenue       Hubbardson      24
+Blake           191553     112 Bay Street              Lancaster       23
+Checchi         452759     10 Young Street             Sterling        56
+Ratta           826660     106 Seagram Drive           Westminster     58
+Chen            767944     212 King Street             Boston          65
+Gervasoni       633911     200 Queen Street            Cambridge       66
+McMillan        230469     345 Hickory Heights Cr.     Allston         44
+Raymond         738159     253 Shakespeare Drive       Bolton          34
+Kong            274170     2345 Westmount Road         Lexington       17
+Wilder          768189     23 Manitoba Avenue          Arlington       56
+Planansky       462402     567 Winnipeg Street         Cambridge       57
+Mao             411499     34 Kennedy Street           Littleton       44
+Shaughnessy     982666     56 Fremont Avenue           Marlboro        56
+Clarion         355591     54 Gardner Street           Worcester       31
+Wilson          122461     46 Blossom Street           Lowell          50
+Doiron          287964     54 Pearl Street             Dracut          32
+Gerardi         769287     45 Elm Street               Springfield     44
+DiNardo         867554     112 Swan Avenue             Westford        58
+Dinsmore        134033     56 Bicentennial Avenue      Lancaster       43

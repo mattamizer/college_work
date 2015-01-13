@@ -1,0 +1,56 @@
+For this assignment we were to find 5 new Unix commands 5 options for them, as well as 5 VI(M) commands. For the Unix commands I found the following:
+
+grep: Searches for the named input FILEs (or standard input if no files are named, or if a single hiphen-minus (-) is given as a file name) for lines containing a match to the given PATTERN. By default, grep prints the matching lines. In addition, three variant programs egrep, fgrep, and rgrep are available. egrep is the same as grep -E. fgrep is the same as grep -F. rgrep is the same as grep -r. Direct invocation as either egrep or fgrep is deprecated, but is provided to allow historical applications that rely on them to run unmodified.
+Options:
+--help: Print a usage menu briefly summarizing these command line options and the bug-reporting address, then exit.
+-V, --version: Print the version number of grep to the standard output stream. This version number should be included in all bug reports.
+-E, --extended-regexp: Interpret PATTERN as an extended regular expression.
+-F, --fixed-strings: Interpret PATTERN as a list of fixed strings, seperated by newlines, any of which is to be matched.
+-G, --basic-regexp: Interpret PATTERN as a basic regular expression. This is the default.
+
+ssh: A program for loggin into a remote machine and for executing commands on a remote machine. It is intended to replace rlogin and rsh, and provide secure encrypted communications between two untrested hosts over an insecure network. X11 connections and arbitrary TCP porst can also be forwarded over the secure channel. ssh connects and logs into the specified hostname (with optional user name). The user must prove his/her identity to the remote machine using one of several methods on the protocol version used (see below). If command is specified, it is executed on the remote host instead of a login shell.
+Options:
+-1: Forces ssh to try protocol version 1 only.
+-2: Forces ssh to try protocol version 2 only.
+-4: Forces ssh to use IPv4 addresses only.
+-6: Forces ssh to use IPv6 addresses only.
+-A: Enables forwarding of the authenticaion agent connection. This can also be specified on a per-host basis in a configuration file.
+
+anacron: Can be used to execute commands periodically, with a frequency specified in days. Unlike cron(8), it does not assume the machine is running 24 hours a day, to control daily, weekly, and monthly jobs that are usually controlled by cron. When executed, anacron reads a list of jobs from a configuration file, normally /etc/anacrontab (see anacrontab(5)). This file contains the list of jobs that anacron controls. Each job entry specifies a period in days, a delay in minutes, a unique job identifier, and a shell command.
+Options:
+-f: Force execution of the jobs, ignoring the timestamps.
+-u: Only update the timestamps of the jobs, to the current date, but don't run anything.
+-s: Serialize execution of jobs. anacron will not start a new job before the previous one finished.
+-n: Run jobs now. Ignore the delay specifications in the /etc/anacrontab file. This option implies -s.
+-d: Don't fork to the background. In this mode, anacron will output informational messages to standard error, as well as to syslog. The output of jobs is mailed as usual.
+
+tar: Stores and extracts files from a tape or disk archive. The first argument to tar should be a funcion; either one of the letters acdrtux, or one of the long function names. A function letter need not be prefiexed with "-", and may be combined with other single-letter options. A long function name must be prefixed with "--". some options take a parameter; with the single-letter form these must be given as seperate arguments. With the long form, they may be given by appending =value to the option.
+Options:
+-A, --catenate, --concatenate: Append tar files to an archive.
+-c, --create: Create a new archive.
+-d, --diff, --compare: Find differences between archive and file system.
+--delete: Delete from the archive (not on mag tapes!)
+-r, --append: Append files to the end of an archive
+
+tset: Initializes terminals. tset first determins the type of terminal that you are using. This determination is done as follows, using the first terminal type found.
+1) The terminal argument specified on the command line.
+2) The value of the TERM environmentaly variable.
+3) (BSD systems only) The terminal type associated with the standard error output device in the /etc/ttys file. (On Linus and System-V-like UNIXes, getty does this job by setting TERM according to the type passed to it by /etc/inittab.)
+Options:
+-c: Set control characters and modes.
+-e: Set the erase character to ch.
+-I: Do not send the terminal or tab initialization strings to the terminal.
+-i: Set the interrupt charater to ch.
+-k: Set the line kill character to ch.
+
+For the VI(M) options/commands I found the following:
+
+a: Enter insert mode, the characters typed in will be inserted after the current cursor position. If you specify a count, all the text that had been inserted will be repeated that many times.
+
+x: Delete character under the cursor. Count specifies how many characters to delete. The characters will be deleted after the cursor.
+
+d$: Deletes from the current position to the end of the line.
+
+autoindent (ai): Sets the editor so that the lines following an indented line will have the same indentation as the previous line. If you want to back over this indentation, you can type ^D at the very first character position. This ^D works in the insert mode, and not in the command mode. Also, the width of the indentations can be set with shiftwidth.
+
+exrc: The .exrc file in the current directory is read during startup. This has to be set either in the environment variable EXINIT or in the .exrc file in your home directory.

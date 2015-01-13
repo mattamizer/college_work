@@ -1,0 +1,171 @@
+<html dir="ltr"><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"><!-- 
+ /*
+ * (C) Copyright Blackboard Inc. 1998-2005 - All Rights Reserved
+ *
+ * Permission to use, copy, modify, and distribute this software 
+ * without prior explicit written approval is strictly prohibited. 
+ * Please refer to the file "copyright.html" for further important 
+ * copyright and licensing information.
+ *
+ * BLACKBOARD MAKES NO REPRESENTATIONS OR WARRANTIES ABOUT THE
+ * SUITABILITY OF THE SOFTWARE, EITHER EXPRESS OR IMPLIED, 
+ * INCLUDING BUT NOT LIMITED TO THE IMPLIED WARRANTIES OF 
+ * MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, OR NON-
+ * INFRINGEMENT. BLACKBOARD SHALL NOT BE LIABLE FOR ANY DAMAGES 
+ * SUFFERED BY LICENSEE AS A RESULT OF USING, MODIFYING OR 
+ * DISTRIBUTING THIS SOFTWARE OR ITS DERIVATIVES.
+ */
+ -->
+
+
+
+
+                
+                
+                
+
+
+
+
+
+
+
+
+
+    <title>ST: SW Dev for Mobile Devs</title>
+    <link rel="stylesheet" href="courseMenu_data/tree.css" type="text/css">
+    
+    <script language="JavaScript" src="courseMenu_data/tree_control.js"></script>
+    <script language="JavaScript" src="courseMenu_data/tree_tpl.js"></script>
+    <script language="JavaScript" src="courseMenu_data/content.js"></script>
+    <script language="Javascript">
+
+    function the_target() {
+        if (top.content) {
+            return 'content';
+        } else {
+            return '_top';
+        }
+    }
+    var remote = null;
+    function detach(n,u,w,h) {
+            lpix = screen.width - w;
+            remote = window.open(u, n, 'width=' + w + ',height=' + h +',resizable=yes,scrollbars=yes,status=no,top=20,left='+lpix);
+            if (remote != null) {
+                remote.focus();
+                if (remote.opener == null)
+                remote.opener = self;
+                window.top.name = 'bbWin';
+            }
+    }
+    function toggleEnrollStatus(cid,action) {
+        var confMsg = "This action is final and cannot be undone. Unenroll?";
+        if (action == "add") 
+        {
+            window.location.href = "/bin/admin/quick_enroll.pl?course_id="+cid+"&action="+action;	            
+        } 
+        else 
+        {
+            if (confirm(confMsg)) 
+            {
+                window.location.href = "/bin/admin/quick_enroll.pl?course_id="+cid+"&action="+action;	
+            }	
+        }
+    } 
+    </script>
+
+    <style type="text/css">
+    html, body { background: #336666; 
+         color: #FFFFFF; 
+         margin-top: 0px; 
+         margin-right: 0px;
+         margin-bottom: 0px;
+         padding-right: 0px;
+         padding-top: 0px;
+         padding-bottom: 0px;
+    }
+    .tableOutline {
+        border-left-width: 0px;
+        border-top-width: 0px;
+        border-right-width: 0.5px;
+        border-bottom-width: 0px;
+        border-color: #333333;
+        border-style: solid;
+        margin-right: 0px;
+        padding-right: 0px;
+    }
+    .iconLink { 
+        margin-right: 0px;
+        padding-right: 0px;
+        border-right: -2px;
+    }	
+    .cpTable {
+        background-color: #333333;
+        margin-left: 3px;
+        width:135px;
+     }
+
+    .panelTitle
+    {	
+    	font-family: Arial, Helvetica, sans-serif;
+        margin: 0.0em 0.0em 0.0em 0.2em;     
+        font-size:0.8em;
+    	font-weight:bold;    	
+    	color: #336666;
+    } 
+
+    
+    
+    .disabled { color:#4f4f4f; font-size: .8em; font-family: Verdana, Helvetica, serif; text-decoration: none;}
+    a { color: #FFFFFF; font-size: .8em; font-family: Verdana, Helvetica, serif; text-decoration: none; }
+    a.cp { color: #000000; font-weight: normal; font-size: .7em; font-family: Verdana, Helvetica, serif; margin-right: 5px;} 
+    </style>
+</head><body rightmargin="2px" topmargin="2px" onunload="if(remote != null) remote.close();" bgcolor="#336666">
+
+<table valign="top" width="100%" border="0" cellpadding="0" cellspacing="5">
+<tbody><tr><td width="100%">
+<table valign="top" width="100%" border="0" cellpadding="0" cellspacing="4">    <tbody><tr>       <td valign="top" width="100%"><table valign="top" width="100%" border="0" cellpadding="0" cellspacing="4"><tbody><tr><td class="iconLink"><a href="https://community.worcester.edu/webapps/blackboard/content/launchLink.jsp?course_id=_41189_1&amp;tool_id=_139_1&amp;tool_type=TOOL&amp;mode=view&amp;mode=reset" target="main">Announcements</a></td></tr><tr><td class="iconLink"><a href="https://community.worcester.edu/webapps/blackboard/content/listContent.jsp?course_id=_41189_1&amp;content_id=_305805_1&amp;mode=reset" target="main">Course Information</a></td></tr><tr><td class="iconLink"><a href="https://community.worcester.edu/webapps/blackboard/content/launchLink.jsp?course_id=_41189_1&amp;tool_id=_21697_1&amp;tool_type=STAFF_INFO&amp;mode=view&amp;mode=reset" target="main">Staff Information</a></td></tr><tr><td class="iconLink"><a href="https://community.worcester.edu/webapps/blackboard/content/listContent.jsp?course_id=_41189_1&amp;content_id=_305806_1&amp;mode=reset" target="main">Course Documents</a></td></tr><tr><td class="iconLink"><a href="https://community.worcester.edu/webapps/blackboard/content/listContent.jsp?course_id=_41189_1&amp;content_id=_305807_1&amp;mode=reset" target="main">Assignments</a></td></tr><tr><td class="iconLink"><a href="https://community.worcester.edu/webapps/blackboard/content/launchLink.jsp?course_id=_41189_1&amp;tool_id=_10_1&amp;tool_type=TOOL&amp;mode=view&amp;mode=reset" target="main">Communication</a></td></tr><tr><td class="iconLink"><a href="https://community.worcester.edu/webapps/blackboard/content/launchLink.jsp?course_id=_41189_1&amp;tool_id=_144_1&amp;tool_type=TOOL&amp;mode=view&amp;mode=reset" target="main">Discussion Board</a></td></tr><tr><td class="iconLink"><a href="https://community.worcester.edu/webapps/blackboard/content/listContent.jsp?course_id=_41189_1&amp;content_id=_305808_1&amp;mode=reset" target="main">External Links</a></td></tr><tr><td class="iconLink"><a href="https://community.worcester.edu/webapps/blackboard/content/launchLink.jsp?course_id=_41189_1&amp;tool_id=_11_1&amp;tool_type=TOOL&amp;mode=view&amp;mode=reset" target="main">Tools</a></td></tr></tbody></table>       </td>   </tr></tbody></table></td></tr>
+</tbody></table><br clear="ALL">
+<table valign="top" width="100%" border="0" cellpadding="0" cellspacing="4">
+<tbody><tr><td>
+<table valign="top" summary="" class="cptable" border="0" cellpadding="0" cellspacing="1">
+    <tbody><tr>
+        <td valign="top" align="center">
+        <table summary="" width="100%" border="0" cellpadding="2" cellspacing="0">
+            <tbody><tr>
+                <td bgcolor="#eeeeee">
+                <table summary="" width="100%">
+                    <tbody><tr>
+                        <td valign="top" width="16">
+                            <a class="cp" href="https://community.worcester.edu/webapps/blackboard/content/courseMenu.jsp?forceRefresh=true&amp;course_id=_41189_1">
+                            <img title="Last refreshed onNov 10, 2009 7:19:48 PM EST" alt="Last refreshed onNov 10, 2009 7:19:48 PM EST" src="courseMenu_data/refresh.gif" height="16" width="16" border="0"></a>
+                        </td> 
+                        <td valign="top" width="100%">
+                            <a class="cp" href="https://community.worcester.edu/webapps/blackboard/content/courseMenu.jsp?forceRefresh=true&amp;course_id=_41189_1">
+Refresh
+                            </a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td valign="top" width="16">
+                            <a class="cp" href="https://community.worcester.edu/webapps/blackboard/content/courseMenu.jsp?course_id=_41189_1&amp;view=map">
+                            <img title="Detail View" alt="Detail View" src="courseMenu_data/course_map.gif" height="16" width="16" border="0"></a>
+                        </td> 
+                        <td valign="top" width="100%">
+                            <a class="cp" href="https://community.worcester.edu/webapps/blackboard/content/courseMenu.jsp?course_id=_41189_1&amp;view=map">
+Detail View
+                            </a>
+                        </td>
+                    </tr>
+                 </tbody></table>
+                 </td>
+             </tr>
+         </tbody></table>
+         </td>
+     </tr>
+</tbody></table>
+</td></tr></tbody></table><br clear="ALL">
+<p>&nbsp;</p>
+
+</body></html>

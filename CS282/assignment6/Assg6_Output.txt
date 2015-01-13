@@ -1,0 +1,133 @@
+aparna@aparna-laptop:~/Documents/CS282/Assg6$ make
+gcc -c Assg6_Driver.c
+gcc -c Assg6_Implementation.c
+gcc -o Assg6 Assg6_Driver.o Assg6_Implementation.o -lm
+aparna@aparna-laptop:~/Documents/CS282/Assg6$ ./Assg6
+Mini-Statitics Package
+----------------------
+
+This program will perform the following
+1) Enter data
+2) Display the data and the following statistics: 
+   the number of data items, the high and low values in the data,
+   the mean, median, mode, variance and standard deviation.
+3) Quit the program
+
+Your choice? 1
+
+Enter one data item after each prompt. Press return after each one.
+Signal with <EOF> when you are done with data input.
+Item #1: 25
+Item #2: 36
+Item #3: 27.5
+Item #4: 28
+Item #5: 32
+Item #6: 33.25
+Item #7: 
+
+This program will perform the following
+1) Enter data
+2) Display the data and the following statistics: 
+   the number of data items, the high and low values in the data,
+   the mean, median, mode, variance and standard deviation.
+3) Quit the program
+
+Your choice? 2
+Data Items:
+25.00   36.00   27.50   28.00   32.00   33.25   
+Number of data items: 6
+Largest data item:  36.00
+Smallest data item: 25.00
+Mean:               30.29
+Median:             30.00
+Mode:               No mode
+Variance:           14.22
+Standard Deviation: 3.77
+
+This program will perform the following
+1) Enter data
+2) Display the data and the following statistics: 
+   the number of data items, the high and low values in the data,
+   the mean, median, mode, variance and standard deviation.
+3) Quit the program
+
+Your choice? 1
+Do you want to add new data to the existing sample? (Y/N): y
+
+Enter one data item after each prompt. Press return after each one.
+Signal with <EOF> when you are done with data input.
+Item #7: 29.7
+Item #8: 28.2
+Item #9: 35.3
+Item #10: 28
+Item #11: 
+
+This program will perform the following
+1) Enter data
+2) Display the data and the following statistics: 
+   the number of data items, the high and low values in the data,
+   the mean, median, mode, variance and standard deviation.
+3) Quit the program
+
+Your choice? 2
+Data Items:
+25.00   36.00   27.50   28.00   32.00   33.25   29.70   28.20   35.30   28.00   
+
+Number of data items: 10
+Largest data item:  36.00
+Smallest data item: 25.00
+Mean:               30.29
+Median:             28.95
+Mode:               28.00
+Variance:           12.04
+Standard Deviation: 3.47
+
+This program will perform the following
+1) Enter data
+2) Display the data and the following statistics: 
+   the number of data items, the high and low values in the data,
+   the mean, median, mode, variance and standard deviation.
+3) Quit the program
+
+Your choice? 1
+Do you want to add new data to the existing sample? (Y/N): n
+
+Enter one data item after each prompt. Press return after each one.
+Signal with <EOF> when you are done with data input.
+Item #1: 42
+Item #2: 56.7
+Item #3: 33.45
+Item #4: 11.90
+Item #5: 42
+Item #6: 
+
+This program will perform the following
+1) Enter data
+2) Display the data and the following statistics: 
+   the number of data items, the high and low values in the data,
+   the mean, median, mode, variance and standard deviation.
+3) Quit the program
+
+Your choice? 2
+Data Items:
+42.00   56.70   33.45   11.90   42.00   
+Number of data items: 5
+Largest data item:  56.70
+Smallest data item: 11.90
+Mean:               37.21
+Median:             42.00
+Mode:               42.00
+Variance:           216.10
+Standard Deviation: 14.70
+
+This program will perform the following
+1) Enter data
+2) Display the data and the following statistics: 
+   the number of data items, the high and low values in the data,
+   the mean, median, mode, variance and standard deviation.
+3) Quit the program
+
+Your choice? 3
+Thank you and good bye!
+aparna@aparna-laptop:~/Documents/CS282/Assg6$ 
+

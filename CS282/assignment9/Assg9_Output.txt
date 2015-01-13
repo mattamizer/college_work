@@ -1,0 +1,71 @@
+The elements in the ascending order: 
+
+AliciaBhavanaBrianCharlesChristopherCoadyDanielDavidDennieHenryJamesJonathanJoshJoshuaLeeMarcosMatthewMichaelNadiaNateNathanPawelRamoSandeepShailenderShresthaTrevorVanithaVijayaWilliam
+
+The elements in the descending order: 
+
+WilliamVijayaVanithaTrevorShresthaShailenderSandeepRamoPawelNathanNateNadiaMichaelMatthewMarcosLeeJoshuaJoshJonathanJamesHenryDennieDavidDanielCoadyChristopherCharlesBrianBhavanaAlicia
+
+David is successfully deleted from the list
+
+Trevor is successfully deleted from the list
+
+Jonathan is successfully deleted from the list
+
+Matthew is successfully deleted from the list
+
+Nathan is successfully deleted from the list
+
+Charles is successfully deleted from the list
+
+Daniel is successfully deleted from the list
+
+Joshua is successfully deleted from the list
+
+Marcos is successfully deleted from the list
+
+William is successfully deleted from the list
+
+Nadia is successfully deleted from the list
+
+Josh is successfully deleted from the list
+
+Alicia is successfully deleted from the list
+
+Nate is successfully deleted from the list
+
+Brian is successfully deleted from the list
+
+Christopher is successfully deleted from the list
+
+Michael is successfully deleted from the list
+
+James is successfully deleted from the list
+
+Coady is successfully deleted from the list
+
+Henry is successfully deleted from the list
+
+Lee is successfully deleted from the list
+
+Pawel is successfully deleted from the list
+
+Dennie is successfully deleted from the list
+
+Ramo is successfully deleted from the list
+
+Vanitha is successfully deleted from the list
+
+Bhavana is successfully deleted from the list
+
+Vijaya is successfully deleted from the list
+
+Shrestha is successfully deleted from the list
+
+Sandeep is successfully deleted from the list
+
+Shailender is successfully deleted from the list
+
+
+
+The list is empty

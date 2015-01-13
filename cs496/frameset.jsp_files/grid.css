@@ -1,0 +1,66 @@
+body.dataCollection, body.reports {font-family:Arial,sans-serif;font-size: 0.8em;background:#FFFFFF;margin:0px 10px 16px 10px;}
+body.dataCollection h1 {font-size:130%;margin:0px 0px 12px 0px;padding:6px;border-bottom:3px solid #ccc;}
+.inlineEdit
+{
+  vertical-align:middle;border:0px;
+}  
+
+
+/*RUBRIC STYLES*/
+
+.inplace {display:none;}
+
+a.inline:link, a.inline:visited, a.inline:active 
+{
+	background:#EAEAEA url(../images/button2_fade.jpg);border: 1px solid #F1F1F1;padding:1px;
+}
+a.inline:hover {background:#F1F1F1 url(../images/button_over.jpg);padding:1px;}
+
+table.curr_grid tr td, table.curr_grid tr th {font-size:0.8em}
+table.rubric_grid tr td a, table.rubric_grid tr th a {font-size:100%}
+table.rubric_grid tr td textarea {width:150px; height:170px;}
+table.rubric_grid tr td div.bSpell {width:150px;}
+
+table.rubric_grid {border-collapse:collapse; margin:0px 0px 3px 0px;_width:auto;border:2px solid #aaa;}
+table.rubric_grid thead tr th, table.rubric_grid tbody tr td, table.rubric_grid tbody tr th {border-bottom:1px solid #666;border-left:1px solid #666;padding:8px; vertical-align:top;}
+.data {background-color:#ededed} 
+table.rubric_grid tfoot tr td {background-color:#ededed;}
+table.rubric_grid thead tr th.superhead {text-transform:uppercase;font-size:115%;color:#777;letter-spacing:4px; text-align:center;}
+table.rubric_grid tr td a.inlineAction, table.rubric_grid tr th a.inlineAction {font-size:0.8em;text-transform:none;color:#003366; letter-spacing:0;float:left;margin-bottom:2px;}
+table.rubric_grid tr th.superhead a.inlineAction{font-size:0.7em;}
+
+/*END RUBRIC STYLES*/
+
+
+.inlineAction
+{
+    BORDER-RIGHT: #cccccc 1px outset;
+    PADDING-RIGHT: 5px;
+    BORDER-TOP: #cccccc 1px outset;
+    PADDING-LEFT: 5px;
+    FONT-SIZE: 0.85em;
+    MARGIN-BOTTOM: 5px;
+    MARGIN-LEFT: 5px;
+    BORDER-LEFT: #cccccc 1px outset;
+    COLOR: #003366;
+    MARGIN-RIGHT: 5px;
+    BORDER-BOTTOM: #cccccc 1px outset;
+    BACKGROUND-COLOR: #eeeeee;
+    FONT-WEIGHT:normal;
+}
+
+.bSpell
+{
+    COLOR: #990000;
+    BACKGROUND-COLOR: #eeeeee;
+    border:1px solid #ccc;
+    text-align:right; /*Style modified in rtol.css*/
+    width:142px;
+    margin-bottom:5px;
+}
+
+.singlesetting{margin-bottom:8px;}
+
+.rubselect{background-color:#ffff99;}
+
+.hideit{display:none}

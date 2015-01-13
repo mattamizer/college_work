@@ -1,0 +1,20 @@
+Here is the count of upper case characters
+
+   A:  2   B:  1   C:  3   D:  1   E:  1   F:  1
+   G:  1   H:  0   I:  4   J:  0   K:  1   L:  0
+   M:  2   N:  2   O:  3   P:  2   Q:  0   R:  0
+   S:  4   T:  8   U:  2   V:  0   W:  0   X:  0
+   Y:  0   Z:  0
+
+Here is the count of lower case characters
+
+   a: 56   b:  2   c: 17   d: 55   e:116   f: 18
+   g: 20   h: 23   i: 77   j:  0   k:  2   l: 21
+   m: 25   n:111   o: 22   p: 21   q:  0   r: 76
+   s: 54   t: 59   u: 30   v: 14   w:  2   x: 16
+   y: 17   z: 15
+
+Here is the count of digit characters
+
+   0:  3   1:  7   2:  7   3:  5   4:  0   5:  1
+   6:  0   7:  0   8:  1   9:  0

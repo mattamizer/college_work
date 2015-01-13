@@ -1,0 +1,51 @@
+Blake           191553     112 Bay Street               Lancaster        23
+Date of birth: 8/14/1979
+
+Brown           750977     21 Central Street            Ballard Hill     21
+Date of birth: 5/29/1955
+
+Bush            411499     34 Kennedy Street            Littleton        44
+Date of birth: 12/23/1957
+
+Checchi         452759     10 Young Street              Sterling         56
+Date of birth: 1/23/1983
+
+Chen            767944     212 King Street              Boston           65
+Date of birth: 7/4/1989
+
+Chu             724731     233 Maple Street             Leominster       42
+Date of birth: 9/26/1952
+
+Gervasoni       633911     200 Queen Street             Cambridge        66
+Date of birth: 6/25/1982
+
+Hicks           617432     101 Grant Avenue             Pepperell        31
+Date of birth: 2/10/1957
+
+Latona          100854     105 University Avenue        Hubbardson       24
+Date of birth: 12/6/1974
+
+McMillan        230469     345 Hickory Heights Cr.      Allston          44
+Date of birth: 10/19/1950
+
+Meszaros        347006     81 River Street              Ashby            30
+Date of birth: 3/24/1957
+
+Munro           274170     2345 Westmount Road          Lexington        17
+Date of birth: 3/2/1962
+
+Planansky       462402     567 Winnipeg Street          Cambridge        57
+Date of birth: 5/23/1963
+
+Ratta           826660     106 Seagram Drive            Westminster      58
+Date of birth: 7/9/1986
+
+Taylor          355591     54 Gardner Street            Worcestor        31
+Date of birth: 9/3/1956
+
+Wilder          768189     23 Manitoba Avenue           Arlington        56
+Date of birth: 8/6/1982
+
+Wilson          122461     46 Blossom Street            Lowell           50
+Date of birth: 12/3/1967
+

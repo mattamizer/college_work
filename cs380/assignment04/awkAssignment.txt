@@ -1,0 +1,62 @@
+1) matt@GIR:~/Dropbox/college/junior/cs380/assignment04$ awk -F: '{print $2}' donors
+(510) 548-1278
+(408) 538-2358
+(206) 654-6279
+(206) 548-1348
+(206) 548-1278
+(916) 343-6410
+(406) 298-7744
+(206) 548-1278
+(916) 348-4278
+(510) 548-5258
+(408) 926-3456
+(916) 440-1763
+
+2) matt@GIR:~/Dropbox/college/junior/cs380/assignment04$ awk -F: '/Dan/ {print "Phone number for Dan: ", $2}' donors
+Phone number for Dan:  (406) 298-7744
+
+3) matt@GIR:~/Dropbox/college/junior/cs380/assignment04$ awk -F: '/Susan/ {print $1" can be reached at", $2}' donors
+Susan Dalsass can be reached at (206) 654-6279
+
+4) matt@GIR:~/Dropbox/college/junior/cs380/assignment04$ awk '/^D/ {print $1}' donors
+Dan
+
+5) matt@GIR:~/Dropbox/college/junior/cs380/assignment04$ awk '/^C|E/ {print $1}' donors
+Christian
+Chet
+Elizabeth
+
+6) matt@GIR:~/Dropbox/college/junior/cs380/assignment04$ awk 'length($1)==4 {print $1}' donors
+Mike
+Jody
+John
+Chet
+
+7) matt@GIR:~/Dropbox/college/junior/cs380/assignment04$ awk '$2 ~ /(916)/ {print $1}' donors
+Guy
+John
+Elizabeth
+
+8) matt@GIR:~/Dropbox/college/junior/cs380/assignment04$ awk -F: '$1 ~ /Mike/ {print "$" $3, " $" $4, " $" $5}' donors
+$250  $100  $175
+
+9) matt@GIR:~/Dropbox/college/junior/cs380/assignment04$ awk -F'[ :\t]' '{print $2 ",", $1}' donors
+Harrington, Mike
+Dobbins, Christian
+Dalsass, Susan
+McNichol, Archie
+Savage, Jody
+Quigley, Guy
+Savage, Dan
+McNeil, Nancy
+Goldenrod, John
+Main, Chet
+Savage, Tom
+Stachelin, Elizabeth
+
+10) matt@GIR:~/Dropbox/college/junior/cs380/assignment04$ awk -F: -f facts.awk donors
+Jody Savage (206) 548-1278
+Dan Savage (406) 298-7744
+Dan Savage contributed more than $250 in the first month.
+Chet has contributed $280
+Tom Savage (408) 926-3456

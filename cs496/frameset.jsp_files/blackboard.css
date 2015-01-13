@@ -1,0 +1,1352 @@
+BODY
+{
+    MARGIN: 10px;
+    COLOR: #000000;
+    FONT-FAMILY: Arial, Helvetica, sans-serif;
+    BACKGROUND-COLOR: #ffffff
+}
+FORM
+{
+        MARGIN:0; PADDING:0;
+}
+TD
+{
+    FONT-FAMILY: Arial, Helvetica, sans-serif
+}
+BODY.bbDefault
+{
+    FONT-SIZE: 0.8em
+}
+BODY.bbDefault TD
+{
+    FONT-SIZE: 0.8em
+}
+BODY.bbDefault A:link
+{
+    COLOR: #003366
+}
+BODY.bbDefault A:visited
+{
+    COLOR: #003366
+}
+BODY.bbDefault A:active
+{
+    COLOR: #669999
+}
+.bWhite
+{
+    COLOR: #000000;
+    BACKGROUND-COLOR: #ffffff
+}
+.bLight
+{
+    BORDER-LEFT-COLOR: #eeeeee;
+    BORDER-BOTTOM-COLOR: #eeeeee;
+    COLOR: #000000;
+    BORDER-TOP-COLOR: #eeeeee;
+    BACKGROUND-COLOR: #eeeeee;
+    BORDER-RIGHT-COLOR: #eeeeee
+}
+.bLight A
+{
+    BORDER-LEFT-COLOR: #eeeeee;
+    BORDER-BOTTOM-COLOR: #eeeeee;
+    BORDER-TOP-COLOR: #eeeeee;
+    BORDER-RIGHT-COLOR: #eeeeee
+}
+.bMedium
+{
+    BORDER-LEFT-COLOR: #cccccc;
+    BORDER-BOTTOM-COLOR: #cccccc;
+    COLOR: #990000;
+    BORDER-TOP-COLOR: #cccccc;
+    BACKGROUND-COLOR: #cccccc;
+    BORDER-RIGHT-COLOR: #cccccc
+}
+.bDark
+{
+    COLOR: #fefae9;
+    BACKGROUND-COLOR: #333333
+}
+.bDark A:link
+{
+    COLOR: #ff0000
+}
+.bDark A:visited
+{
+    COLOR: #ff0000
+}
+.bDark A:active
+{
+    COLOR: #eeeeee
+}
+.bBlack
+{
+    COLOR: #ffffff;
+    BACKGROUND-COLOR: #000000
+}
+.bAccentLight
+{
+    COLOR: #000000;
+    BACKGROUND-COLOR: #fefae9
+}
+.bAccentMedium
+{
+    COLOR: #ffffff;
+    BACKGROUND-COLOR: #669999
+}
+.bAccentDark
+{
+    COLOR: #ffffff;
+    BACKGROUND-COLOR: #336666
+}
+.bAccentNeutral
+{
+    COLOR: #000000;
+    BACKGROUND-COLOR: #cccc99
+}
+.warnFont
+{
+    COLOR: #8b0000
+}
+.required
+{
+    FONT-SIZE: 1em;
+    COLOR: red
+}
+.copyright
+{
+    FONT-SIZE: 0.7em
+}
+
+/* This is a fix which solves floating issues. To be used when containing div allows children to hang outside */
+
+.clearfix:after {content: ".";display: block;height: 0;clear: both;visibility: hidden;}
+
+/* Hides from IE-mac \*/
+
+* html .clearfix {height: 1%;}
+
+/* End hide from IE-mac */
+
+
+.newCopyright{
+        FONT-SIZE: 0.7em;
+  MARGIN:0 auto;
+  WIDTH:50em;
+  _WIDTH:55em;
+  TEXT-ALIGN:center;
+  BORDER-TOP:1px solid #999;
+  PADDING:12px 5px;
+  LINE-HEIGHT:1.5em;
+}
+
+.newCopyright img{
+        FLOAT:left; /*Style modified in rtol.css*/
+        MARGIN:0;
+        HEIGHT: 50px;
+        WIDTH: 50px;
+}
+
+div.copyrightDetailContents
+{
+        margin: 0 auto;
+        width:400px;
+        padding: 5px;
+        position: relative;
+  top:-10px;
+        left:80px;
+  _top:-25px;
+        _left:70px;
+        border: 1px solid #000;
+        background-color: #6B6B6D;
+        color:#fff;
+        -moz-border-radius: 5px;
+  display:none;
+  text-align:left;
+        clear:left;
+        font-size:0.8em;
+}
+
+.titlebar
+{
+    FONT-WEIGHT: bold;
+    FONT-SIZE: 1.3em
+}
+.breadcrumb
+{
+    FONT-SIZE: 0.7em;
+    TEXT-TRANSFORM: uppercase
+}
+
+
+H2.stepTitle
+{
+    FONT-WEIGHT: bold;
+    FONT-SIZE: 1.2em;
+    PADDING: 1px;
+    BORDER: #cccccc 1px solid;
+    BACKGROUND-COLOR: #eeeeee;
+    MARGIN-TOP: 0px;
+    MARGIN-BOTTOM: 0px;
+}
+
+.stepTitle
+{
+    FONT-WEIGHT: bold;
+    FONT-SIZE: 1.2em
+}
+
+.stepContent
+{
+   BORDER-LEFT: #cccccc 4px solid; /*Style modified in rtol.css*/
+   PADDING-TOP: 5px;
+   PADDING-BOTTOM: 10px;
+   MARGIN-LEFT: 20px; /*Style modified in rtol.css*/
+}
+
+.label
+{
+    FONT-WEIGHT: bold
+}
+.receiptDate
+{
+    FONT-SIZE: 0.7em
+}
+.caretTitle
+{
+    FONT-WEIGHT: bold
+}
+.contentTitle
+{
+    FONT-WEIGHT: bold
+}
+.recordCounter
+{
+}
+.colHeader
+{
+    FONT-WEIGHT: bold;
+    FONT-SIZE: 0.7em;
+    LINE-HEIGHT: 10pt
+}
+.listItem
+{
+    FONT-SIZE: 0.9em
+}
+.sessionCount
+{
+    FONT-WEIGHT: bold
+}
+.recordMarker
+{
+}
+.pagingNav
+{
+}
+.paging
+{
+    FONT-SIZE: 0.9em;
+    TEXT-DECORATION: none
+}
+DIV.space
+{
+    PADDING-BOTTOM: 3px;
+    PADDING-TOP: 7px
+}
+.actionButton
+{
+    BORDER-RIGHT: #dddddd 1px outset;
+    PADDING-RIGHT: 5px;
+    BORDER-TOP: #dddddd 1px outset;
+    PADDING-LEFT: 5px;
+    FONT-SIZE: 10px;
+    BORDER-LEFT: #dddddd 1px outset;
+    COLOR: #003366;
+    BORDER-BOTTOM: #dddddd 1px outset;
+    FONT-FAMILY: arial;
+    BACKGROUND-COLOR: #eeeeee;
+    TEXT-ALIGN: center;
+    TEXT-DECORATION: none
+}
+.inputTypeButton
+{
+    BORDER-RIGHT: #cccccc 1px outset;
+    PADDING-RIGHT: 3px;
+    BORDER-TOP: #cccccc 1px outset;
+    PADDING-LEFT: 3px;
+    FONT-SIZE: 0.7em;
+    BORDER-LEFT: #cccccc 1px outset;
+    COLOR: #336699;
+    BORDER-BOTTOM: #cccccc 1px outset;
+    BACKGROUND-COLOR: #f0f0f0
+}
+.inlineAction
+{
+    BORDER-RIGHT: #cccccc 1px outset;
+    PADDING-RIGHT: 5px;
+    BORDER-TOP: #cccccc 1px outset;
+    PADDING-LEFT: 5px;
+    FONT-SIZE: 0.85em;
+    FONT-WEIGHT: normal;
+    MARGIN-BOTTOM: 5px;
+    MARGIN-LEFT: 5px;
+    BORDER-LEFT: #cccccc 1px outset;
+    COLOR: #003366;
+    MARGIN-RIGHT: 5px;
+    BORDER-BOTTOM: #cccccc 1px outset;
+    BACKGROUND-COLOR: #eeeeee
+}
+A.inlineAction:link
+{
+    TEXT-DECORATION: none
+}
+A.inlineAction:visited
+{
+    BORDER-RIGHT: #eeeeee 1px outset;
+    BORDER-TOP: #eeeeee 1px outset;
+    BORDER-LEFT: #eeeeee 1px outset;
+    COLOR: #003366;
+    BORDER-BOTTOM: #eeeeee 1px outset;
+    TEXT-DECORATION: none
+}
+A.inlineAction:hover
+{
+    BORDER-RIGHT: #eeeeee 1px inset;
+    BORDER-TOP: #eeeeee 1px inset;
+    BORDER-LEFT: #eeeeee 1px inset;
+    COLOR: #003366;
+    BORDER-BOTTOM: #eeeeee 1px inset;
+    TEXT-DECORATION: none
+}
+A.inlineAction:active
+{
+    BORDER-RIGHT: #eeeeee 1px inset;
+    BORDER-TOP: #eeeeee 1px inset;
+    BORDER-LEFT: #eeeeee 1px inset;
+    COLOR: #003366;
+    BORDER-BOTTOM: #eeeeee 1px inset;
+    TEXT-DECORATION: none
+}
+DIV.gatewayButton
+{
+    BORDER-RIGHT: #cccccc 1px solid;
+    PADDING-RIGHT: 3px;
+    BORDER-TOP: #cccccc 1px solid;
+    PADDING-LEFT: 3px;
+    BACKGROUND-IMAGE: url(/images/ci/logos/GatewayButtons_gradient.gif);
+    PADDING-BOTTOM: 3px;
+    BORDER-LEFT: #cccccc 1px solid;
+    CURSOR: hand;
+    PADDING-TOP: 3px;
+    BORDER-BOTTOM: #cccccc 1px solid;
+    BACKGROUND-REPEAT: repeat-x;
+    WHITE-SPACE: nowrap;
+    TEXT-ALIGN: center
+}
+A.gatewayButton:link
+{
+    FONT-WEIGHT: bold;
+    FONT-SIZE: 0.9em;
+    COLOR: #003366;
+    WHITE-SPACE: nowrap;
+    TEXT-DECORATION: none
+}
+A.gatewayButton:hover
+{
+    FONT-WEIGHT: bold;
+    FONT-SIZE: 0.9em;
+    COLOR: #336699;
+    WHITE-SPACE: nowrap;
+    TEXT-DECORATION: none
+}
+A.gatewayButton:active
+{
+    FONT-WEIGHT: bold;
+    FONT-SIZE: 0.9em;
+    COLOR: #336699;
+    WHITE-SPACE: nowrap;
+    TEXT-DECORATION: none
+}
+A.gatewayButton:visited
+{
+    FONT-WEIGHT: bold;
+    FONT-SIZE: 0.9em;
+    COLOR: #003366;
+    WHITE-SPACE: nowrap;
+    TEXT-DECORATION: none
+}
+DIV.sidebar
+{
+    BORDER-RIGHT: #cccccc 1px solid;
+    PADDING-RIGHT: 10px;
+    BORDER-TOP: #cccccc 1px solid;
+    PADDING-LEFT: 5px;
+    BORDER-LEFT: #cccccc 1px solid;
+    COLOR: #000000;
+    PADDING-TOP: 10px;
+    BORDER-BOTTOM: #cccccc 1px solid;
+    HEIGHT: 100%;
+    BACKGROUND-COLOR: #fefae9
+}
+DIV.sidebarTitle
+{
+    FONT-WEIGHT: bold;
+    FONT-SIZE: 0.8em;
+    FONT-FAMILY: Arial,Helvetica,sans-serif
+}
+DIV.sidebarDesc
+{
+    FONT-SIZE: 0.7em;
+    MARGIN-LEFT: 17px;
+    FONT-FAMILY: Arial,Helvetica,sans-serif
+}
+DIV.caretlistTitle
+{
+    FONT-WEIGHT: bold;
+    PADDING-TOP: 10px
+}
+DIV.caretlistDesc
+{
+    MARGIN-LEFT: 25px
+}
+.toolboxBorder
+{
+    WIDTH: 150px;
+    COLOR: #000000;
+    BACKGROUND-COLOR: #336666
+}
+
+.toolboxBody
+{
+    PADDING-LEFT: 4px; /*Style modified in rtol.css*/
+    FONT-SIZE: 0.8em;
+    COLOR: #000000;
+    FONT-FAMILY: Arial,Helvetica,sans-serif;
+    BACKGROUND-COLOR: #eeeeee
+}
+H2.moduleTitle
+{
+    FONT-WEIGHT:bold;
+    FONT-SIZE:1em;
+    COLOR: #ffffff;
+    MARGIN-TOP:0px;
+    MARGIN-BOTTOM:0px;
+}
+
+
+H2.toolboxTitle
+{
+    FONT-WEIGHT: bold;
+    COLOR: #ffffff;
+    MARGIN-TOP:0px;
+    MARGIN-BOTTOM:0px;
+    FONT-SIZE:1em;
+}
+.moduleBorder
+{
+    COLOR: #000000;
+    BACKGROUND-COLOR: #336699
+}
+.moduleHead
+{
+    COLOR: #000000;
+    BACKGROUND-COLOR: #336699
+}
+.moduleBody
+{
+    FONT-SIZE: 0.8em
+}
+
+.moduleTitlePm
+{
+    FONT-WEIGHT: bold;
+    FONT-SIZE: 0.8em;
+    COLOR: #ffffff;
+    FONT-FAMILY: Arial,Helvetica,sans-serif
+}
+TD.actionBarc2
+{
+    PADDING-RIGHT: 0px;
+    PADDING-LEFT: 0px;
+    PADDING-BOTTOM: 0px;
+    PADDING-TOP: 0px
+}
+TD.actionBarc1
+{
+    PADDING-RIGHT: 0px
+}
+.actionType
+{
+    FONT-WEIGHT: bold
+}
+.actionItemInactive
+{
+    PADDING-RIGHT: 2px;
+    PADDING-LEFT: 2px;
+    PADDING-BOTTOM: 2px;
+    PADDING-TOP: 2px
+}
+A.actionItem
+{
+    BORDER-RIGHT: 1px solid;
+    PADDING-RIGHT: 2px;
+    BORDER-TOP: 1px solid;
+    PADDING-LEFT: 2px;
+    PADDING-BOTTOM: 2px;
+    BORDER-LEFT: 1px solid;
+    PADDING-TOP: 2px;
+    BORDER-BOTTOM: 1px solid;
+    TEXT-DECORATION: none
+}
+A.actionItem:hover
+{
+    BORDER-RIGHT: #999999 1px solid;
+    BORDER-TOP: #ffffff 1px solid;
+    BORDER-LEFT: #ffffff 1px solid;
+    BORDER-BOTTOM: #999999 1px solid
+}
+.actionTypePm
+{
+    FONT-WEIGHT: bold;
+    FONT-SIZE: 0.9em
+}
+.actionItemPm
+{
+    BORDER-RIGHT: #eeeeee 1px solid;
+    PADDING-RIGHT: 2px;
+    BORDER-TOP: #eeeeee 1px solid;
+    PADDING-LEFT: 2px;
+    FONT-SIZE: 0.9em;
+    PADDING-BOTTOM: 2px;
+    BORDER-LEFT: #eeeeee 1px solid;
+    PADDING-TOP: 2px;
+    BORDER-BOTTOM: #eeeeee 1px solid
+}
+A.actionItemPm
+{
+    TEXT-DECORATION: none
+}
+A.actionItemPm:hover
+{
+    BORDER-RIGHT: #999999 1px solid;
+    BORDER-TOP: #ffffff 1px solid;
+    BORDER-LEFT: #ffffff 1px solid;
+    BORDER-BOTTOM: #999999 1px solid
+}
+A.actionItemPm:link
+{
+    COLOR: #0000ff;
+    BACKGROUND-COLOR: #f0f0f0
+}
+A.actionItemPm:visited
+{
+    COLOR: #0000ff;
+    BACKGROUND-COLOR: #f0f0f0
+}
+TD.SearchCell 
+{
+        VERTICAL-ALIGN: middle;
+        PADDING: 5px 0px 4px 6px;
+        BORDER-LEFT: 1px dotted #ccc;
+}
+A.actionItemSearchButton
+{
+        BORDER: 1px solid #ccc;
+        BACKGROUND: #dedede;
+        PADDING: 1px 1px 4px 1px;
+        text-decoration:none;
+}
+.captionTextNoItalic
+{
+    FONT-SIZE: 0.8em
+}
+.captionText
+{
+    FONT-SIZE: 0.8em;
+    FONT-STYLE: italic
+}
+.helpText
+{
+    FONT-SIZE: 0.8em;
+    FONT-STYLE: italic
+}
+.fontLarge
+{
+    FONT-WEIGHT: bold;
+    FONT-SIZE: medium;
+    FONT-FAMILY: Arial, Helvetica, sans-serif
+}
+.fontStandard
+{
+    FONT-SIZE: small;
+    FONT-FAMILY: Arial, Helvetica, sans-serif
+}
+.fontStandardBold
+{
+    FONT-WEIGHT: bold
+}
+.fontSmall
+{
+    FONT-SIZE: x-small;
+    FONT-FAMILY: Arial, Helvetica, sans-serif
+}
+.toolbarElement
+{
+    TEXT-DECORATION: none
+}
+.toolbarElementText
+{
+    DISPLAY: inline;
+    VERTICAL-ALIGN: middle
+}
+.toolbarElementImage
+{
+    VERTICAL-ALIGN: middle
+}
+A.textBoxItem
+{
+    PADDING-RIGHT: 2px;
+    PADDING-LEFT: 2px;
+    PADDING-BOTTOM: 2px;
+    MARGIN: 1px;
+    PADDING-TOP: 2px;
+    TEXT-DECORATION: none
+}
+A.textBoxItem:hover
+{
+    BORDER-RIGHT: #999999 1px solid;
+    BORDER-TOP: #ffffff 1px solid;
+    MARGIN: 0px;
+    BORDER-LEFT: #ffffff 1px solid;
+    BORDER-BOTTOM: #999999 1px solid
+}
+.fontOrange
+{
+    FONT-SIZE: 1em;
+    COLOR: #cd6600
+}
+.productBox
+{
+    BORDER-RIGHT: black 1px solid;
+    BORDER-TOP: black 1px solid;
+    BORDER-LEFT: black 1px solid;
+    BORDER-BOTTOM: black 1px solid
+}
+.menuList
+{
+    LIST-STYLE-TYPE: disc
+}
+.borderBottom
+{
+    BORDER-RIGHT: medium none;
+    BORDER-TOP: medium none;
+    BORDER-LEFT: medium none;
+    BORDER-BOTTOM: #bbbbbb 1px solid
+}
+.fontXSmall
+{
+    FONT-SIZE: 0.85em
+}
+.container
+{
+    OVERFLOW: auto
+}
+.containerLarge
+{
+    OVERFLOW: auto;
+    HEIGHT: 75px
+}
+.qIncomplete
+{
+    FONT-WEIGHT: bold;
+    COLOR: #003366
+}
+.qComplete
+{
+    BORDER-RIGHT: #999999 1px solid;
+    BORDER-TOP: #999999 1px solid;
+    FONT-WEIGHT: bold;
+    BORDER-LEFT: #999999 1px solid;
+    COLOR: #003366;
+    BORDER-BOTTOM: #999999 1px solid;
+    BACKGROUND-COLOR: #cccccc
+}
+.qShow
+{
+    DISPLAY: block
+}
+.qHide
+{
+    DISPLAY: none
+}
+TD.qStatus
+{
+    PADDING-RIGHT: 1px;
+    PADDING-LEFT: 1px;
+    PADDING-BOTTOM: 4px;
+    WIDTH: 5%;
+    PADDING-TOP: 4px
+}
+.questionNumber
+{
+    FONT-WEIGHT: bold
+}
+.questionType
+{
+    FONT-WEIGHT: bold
+}
+.questionText
+{
+}
+.points
+{
+    FONT-WEIGHT: bold
+}
+.subtitle
+{
+    FONT-WEIGHT: bold;
+    FONT-SIZE: small;
+    MARGIN: 10px 0px 2px
+}
+.questionScroll
+{
+    FONT-SIZE: 0.9em
+}
+.colHead
+{
+    FONT-SIZE: 0.7em
+}
+.disabled
+{
+    FONT-WEIGHT: bold;
+    COLOR: #4f4f4f
+}
+.filterBox
+{
+    BORDER-RIGHT: #cccccc 1px solid;
+    BORDER-TOP: #cccccc 1px solid;
+    BORDER-LEFT: #cccccc 1px solid;
+    BORDER-BOTTOM: #cccccc 1px solid;
+    BACKGROUND-COLOR: #fefae9
+}
+.totalsBox
+{
+    BORDER-RIGHT: #669999 1px solid;
+    BORDER-TOP: #669999 1px solid;
+    BORDER-LEFT: #669999 1px solid;
+    BORDER-BOTTOM: #669999 1px solid;
+    BACKGROUND-COLOR: #eeeeee
+}
+.clpMenuBox
+{
+    BORDER-RIGHT: #5a84a1 1px solid;
+    PADDING-RIGHT: 2px;
+    BORDER-TOP: #5a84a1 1px solid;
+    PADDING-LEFT: 2px;
+    PADDING-BOTTOM: 2px;
+    BORDER-LEFT: #5a84a1 1px solid;
+    WIDTH: 100%;
+    PADDING-TOP: 2px;
+    BORDER-BOTTOM: #5a84a1 1px solid;
+    BORDER-COLLAPSE: collapse;
+    BACKGROUND-COLOR: #ebf2f7
+}
+TD.clpModuleItemCell
+{
+    BORDER-BOTTOM: #9cb2e7 1px solid
+}
+TD.clpMinimizeCell
+{
+    BACKGROUND-COLOR: #5a84a1;
+    TEXT-ALIGN: right
+}
+TD.clpModuleHeaderCell
+{
+    BACKGROUND-COLOR: #5a84a1
+}
+TD.clpBodyModuleHeaderCell
+{
+    BACKGROUND-COLOR: #666666
+}
+TD.clpBodyModuleHeaderMoreCell
+{
+    BACKGROUND-COLOR: #666666;
+    TEXT-ALIGN: right
+}
+UL.clpSubmenuMarker
+{
+    MARGIN-TOP: 0em;
+    MARGIN-BOTTOM: 0.5em;
+    COLOR: #cc6600;
+    LIST-STYLE-TYPE: square
+}
+A.clpMenuLink
+{
+    FONT-WEIGHT: bold
+}
+SPAN.clpModuleHeader
+{
+    FONT-WEIGHT: bold;
+    FONT-SIZE: 0.9em;
+    COLOR: #ffffff;
+    FONT-FAMILY: arial
+}
+UL.clpOUMarker
+{
+    LIST-STYLE-IMAGE: url(/images/ci/misc/CaliperArrow.gif)
+}
+LI.clpOUlist
+{
+    MARGIN-TOP: 0.5em
+}
+DIV.clpHidden
+{
+    DISPLAY: none
+}
+DIV.clpVisible
+{
+    DISPLAY: block
+}
+.clpExpandedLink
+{
+    FONT-WEIGHT: bold;
+    COLOR: #cc6600
+}
+.clpCollapsedLink
+{
+    FONT-WEIGHT: bold;
+    COLOR: #003366
+}
+DIV.inlineReceipt
+{
+        border:1px solid #000;
+    FONT-WEIGHT: bold;
+    COLOR: #000000;
+    background-color:#ffc;
+        background-image:url(/images/ci/actionbar/alert_gradient.gif);
+        position:relative;
+        top:-3px;
+        left:-3px; /*Style modified in rtol.css*/
+}
+DIV.inlineReceipt strong{color:#067500; font-size:130%;}
+DIV.inlineReceipt table tr td.buttoncell{padding-top:7px;}
+DIV.receiptShadow{background-color:#999; margin:3px 0 0 3px;}
+.inlineReceiptSUCCESS
+{
+        background-image:url(/images/cs/permissions_ok.gif);
+        background-repeat:no-repeat;
+        background-position:4px 4px; /*Style modified in rtol.css*/
+        padding:6px 3px 0 33px; /*Style modified in rtol.css*/
+        margin-bottom:3px;
+}
+.inlineReceiptFAILURE
+{
+        background-image:url(/images/cs/path_not_found.gif);
+        background-repeat:no-repeat;
+        background-position:4px 4px; /*Style modified in rtol.css*/
+        padding:6px 3px 0 33px; /*Style modified in rtol.css*/
+        margin-bottom:3px;
+}
+.inlineReceiptWARNING
+{
+        background-image:url(/images/cs/path_not_found.gif);
+        background-repeat:no-repeat;
+        background-position:4px 4px; /*Style modified in rtol.css*/
+        padding:6px 3px 0 33px; /*Style modified in rtol.css*/
+        margin-bottom:3px;
+}
+.inlineReceiptOTHER
+{
+        padding:6px 3px 0 6px; /*Style modified in rtol.css*/
+        margin-bottom:3px;
+}
+img.inlineReceiptBullet
+{
+  vertical-align: middle;
+}
+.objInd_current
+{
+    TEXT-TRANSFORM: uppercase;
+    COLOR: #cc6600;
+    FONT-FAMILY: Arial
+}
+.obj_Ind
+{
+    TEXT-TRANSFORM: uppercase;
+    COLOR: #999999;
+    FONT-FAMILY: Arial
+}
+.closeWin{
+padding:1px;
+padding-left:4px;
+padding-right:4px;
+font-size:0.7em;
+color: #003366;
+font-family:arial;
+font-weight:bold;
+text-decoration:none;
+border:#999999 solid 1px;
+background-color:#eeeeee;
+}
+
+.fontPreview { /* renders the font preview blocks on the Edit Portfolio Styles pages */
+  display:block;
+  float:left;
+  margin:3px 0;
+  background:#fff;
+  border:1px solid #000;
+  padding:4px;
+}
+
+.stepTable{
+        background-image:url(/images/ci/icons/steps_left.gif); /*Style modified in rtol.css*/
+        background-repeat:no-repeat;
+        background-position:left 0; /*Style modified in rtol.css*/
+        margin:4px 0;
+    padding:0;
+        height:36px;
+}
+.stepLast{
+        background-image:url(/images/ci/icons/step_right.gif); /*Style modified in rtol.css*/
+        background-repeat:no-repeat;
+    width:11px;
+        height:36px;
+        margin:0;
+        padding:0;
+}
+
+
+.curstepNum{
+        background-image:url(/images/ci/icons/stepArrows.gif); /*Style modified in rtol.css*/
+        background-repeat:no-repeat;
+        width:30px;
+        height:30px;
+        background-position:8px 5px; /*Style modified in rtol.css*/
+}
+.curstepText{
+        background-image:url(/images/ci/icons/currTextBack.gif); /*Style modified in rtol.css*/
+        background-repeat:no-repeat;
+        background-position:right 5px; /*Style modified in rtol.css*/
+        padding:5px;
+        padding-right:15px; /*Style modified in rtol.css*/
+        font-weight:bold;
+    COLOR: #cc6600;
+    FONT-FAMILY: Arial;
+}
+.stepNum{
+        background-image:url(/images/ci/icons/stepArrows2.gif); /*Style modified in rtol.css*/
+        background-repeat:no-repeat;
+        background-position:4px 5px; /*Style modified in rtol.css*/
+        width:26px;
+        height:26px;
+}
+.stepText{
+        padding:5px;
+        padding-right:15px; /*Style modified in rtol.css*/
+    COLOR: #666;
+        font-size:95%;
+    FONT-FAMILY: Arial;
+   
+}
+
+table.inlineTable{
+        margin:5px 0;
+        border-bottom:1px solid #666;
+}
+table.inlineTable tr.bAccentMedium{
+        background-color:#999;
+}
+table.inlineTable tr th{
+        padding:5px;
+}
+table.inlineTable tr td{
+  padding:5px;
+}
+
+/*Caliper Course Objective page- first objective.  First objective
+  should not have a horizontal line above it.
+*/
+h1.subtitle {font-size:130%;margin:0px;padding:2px;} /*Style modified in rtol.css*/
+h2.subtitleFirstObj {padding:6px 4px 6px 0;font-size:110%;margin:0} /*Style modified in rtol.css*/
+/*End Caliper Course Objective page - first objective*/
+
+/*Caliper Course Objective page*/
+h1.subtitle {font-size:130%;margin:0px;padding:2px;}
+h2.subtitle {padding:6px 4px 6px 0;font-size:110%;margin:0;border-top:1px solid #ccc}
+h2.notop {border:none;}
+.obj_details {font-size:95%;margin-left:22px;} /*Style modified in rtol.css*/
+.objective {padding:2px 0px 6px 0px;}
+.objective div {padding:1px 0px 2px 0px;}
+.objective div span, .obj_details span {color:#888;}
+.obj_details table tr th span {color:white;}
+ .obj_details table tr td span {color:black;}
+.objective div.description, .objective div.public  {padding-left:27px;} /*Style modified in rtol.css*/
+.objective div.title {font-weight:bold;}
+/*End Caliper Course Objective page*/
+
+/*Begin RightToLeft support for alignment  */
+/*We will let the browser automatically left align (or right for rtl languages)
+ *table cells by not stating any alignment by default.  For inverse
+ *alignment cells we will use class=invrese and let the stylesheet handle that.
+ */
+.natural {text-align:left;}
+.inverse {text-align:right;}
+/*
+ * Right to Left support for image tag.
+ */
+.naturalImgAlign {float:left;}
+.inverseImgAlign {float:right;}
+/*End RightToLeft support for alignment  */
+
+/* Begin discussion board styles */
+.unreadMessage
+{
+  FONT-WEIGHT: bold;
+}
+
+table.treeFrame {border:1px solid #aaa}
+table.treeFrame tr td, table.tree_view tr td img  {vertical-align:middle;}
+
+tr.thread td  {border-top:1px solid #ccc;vertical-align:middle;}
+tr.thread td img {vertical-align:middle;}
+
+table.unreadMessageBorder
+{
+  border: 3px solid rgb(102, 102, 102);
+}
+table.readMessageBorder
+{
+  border: 1px solid rgb(204, 204, 204);
+}
+tr.show
+{
+  display: block;
+}
+tr.hide
+{
+  display: none;
+}
+.loadingElipse
+{
+  display:     block;
+  padding:     4px 14px;
+  font-weight:bold;
+  font-size:   90%;
+  text-align:  center;
+  border:      1px solid #ccc;
+  background:  #ffffcc;
+  width:       140px;
+  margin:      auto;
+}
+
+.gradeField {
+        overflow:visible;
+        padding:4px 12px;
+        margin:9px 0 9px 0;
+
+        color:#000;
+        font-size:120%;
+        vertical-align:middle;
+        _height:1%;
+        text-align:center;
+}
+
+.gradeField input {
+        padding:1px 3px 0 3px;
+        margin:0px;
+        border:2px solid #666;
+        font-weight:bold;
+        font-size:110%;
+        vertical-align:middle;
+        font-family:Arial,sans-serif;
+        background:#ffffff;
+        line-height:100%;
+        _line-height:120%;
+}
+
+.gradeField input.inputTypeButton {
+        display:inline; 
+        overflow: visible;
+        padding:2px 6px 1px 6px;
+        padding:2px 8px 1px 8px;
+        font-size:80%;
+        font-weight:normal;
+        width:auto;
+        height:auto;
+        border:1px solid #ccc;
+        background:#ededed;
+        _width:auto;
+}
+
+.gradeField a {
+        font-weight:bold;
+        font-size:120%;
+}
+
+.gradeField span {
+        font-size:80%;
+        padding:0 9px;
+        color:#555;
+}
+
+.overrideGrade {
+        margin:3px 0 3px 9px;
+        font-size:80%;
+        padding:0px 12px 0px 12px;
+        display:inline;
+        border-left:1px solid #ccc;
+        vertical-align:middle;
+}
+
+.overrideGrade input.inputTypeButton {
+        font-size:70%;
+        font-weight:normal;
+        vertical-align:middle;
+        margin-top:-3px;
+}
+
+DIV.parentMessage {
+        CLEAR: both; 
+        BORDER-RIGHT: #ccc 1px solid; 
+        PADDING-RIGHT: 6px; 
+        BORDER-TOP: #ccc 1px solid; 
+        PADDING-LEFT: 6px; 
+        FONT-SIZE: 90%; 
+        BACKGROUND: #ededed; 
+        PADDING-BOTTOM: 9px; 
+        MARGIN: 6px; 
+        BORDER-LEFT: #ccc 1px solid; 
+        PADDING-TOP: 3px; 
+        BORDER-BOTTOM: #ccc 1px solid
+}
+.availability {
+        PADDING-RIGHT: 3px; 
+        PADDING-LEFT: 3px; 
+        FONT-SIZE: 85%; 
+        PADDING-BOTTOM: 1px; 
+        MARGIN: 6px 0px; 
+        WIDTH: auto; 
+        PADDING-TOP: 1px; 
+        FONT-STYLE: italic
+}
+
+td.tag_controls {background:#cad7e7;border-bottom:1px solid #ccc;padding:3px 3px 3px 6px;}
+td.msg_controls {background:#cad7e7;border-bottom:1px solid #ccc;padding:3px 3px 3px 0;} 
+td.checkbox_cell {padding:6px 6px 0 6px; vertical-align:top; border-right: 1px solid #cccccc} /*Style modified in rtol.css*/
+
+td.prevNextPostArea{
+        white-space: nowrap;
+        text-align: center;
+        padding: 2px 5px 3px 5px;
+        background: #fff;
+        border: 1px solid #ccc;
+}
+
+h3.dbheading { /* Inserted to counteract margins in Discussion Board. */
+  margin-top: 0;
+  margin-bottom: 0;
+}
+span + h3.dbheading { /* For tree view styles in Discussion Board. */
+  display: inline;
+}
+a + h3.dbheading { /* For tree view styles in Discussion Board. */
+  display: inline;
+}
+
+/* End discussion board styles */
+
+/* begin toggle button styles */
+a.toggle_link {
+        margin-right:0px;
+        margin-left: 0px;
+        font-size:85%;
+        border:2px solid #ccc;
+        padding:1px 6px;
+        background:#eee;
+        text-decoration:none;
+        _height:1%;
+}
+
+a.toggle_link:hover {
+        border:2px solid #666;
+}
+
+.toggle_here {
+        margin-left:0px;
+        margin-right: 0px;
+        background:#ccc;
+        padding:0px 6px;
+        font-size:85%;
+        border:2px solid #ccc;
+        padding:1px 6px;
+        height:1%;
+}
+/* end toggle button styles */
+
+/* styles for metadata on the adv search page - also used for workflows instantiation page */
+div.mdList {
+  margin:0 0 6px 12px; 
+  border:1px solid #ddd; 
+  border-width:0 1px 1px 1px;
+  padding:6px;
+}
+div.mdList h2 {display:none;}
+h3.mdHead {
+  margin:6px 0 0 12px;
+  border:1px solid #ccc;
+  background:#eee; 
+  padding:0px;
+  font-size:100%;
+}
+h3.mdHead a {
+  display:block;
+  padding:2px;
+}
+h3.mdHead a:hover {background:#ffffcc;}
+/* end of metadata adv search */
+
+/* new CSS timer for assessments */
+.timerDiv{
+width:130px;
+background:#ffffcc;
+border:1px solid #999;
+position:fixed;
+right:10px;
+top:10px;
+padding:5px;
+min-height:30px;
+*height:30px;
+}
+
+.timerDiv span{
+font-weight:bold;
+}
+
+/* list tag */
+td.listSort {
+  border-left: 1px solid #336666;
+  border-right: 1px solid #99cccc;
+}
+th.listHeader {
+  border-left: 1px solid #336666;
+  border-right: 1px solid #99cccc;
+}
+
+/* Save as Artifact styles - This control is positioned directly beneath the vtbe */
+div.vtbe_footer {
+  font-size:.85em;
+  padding:4px 0;
+  background:#eee;
+  border:1px solid #ddd; 
+  border-top:none;
+}
+div.vtbe_footer input {
+    font-size:.9em;
+    vertical-align:middle;
+}
+div.vtbe_footer div {
+    margin:2px 23px;
+    display:none;
+}
+div.vtbe_footer p {
+    margin:2px 0;
+}
+/* styles for Metadata format (as displayed on the course list pages) */
+div.md_linear {margin:6px 0; font-family:arial,helvetica,sans-serif;}
+div.md_linear a {font-style:italic; font-family: arial,helvetica,sans-serif;}
+div.md_linear p {display:inline; font-size:95%;}
+div.md_linear p span {display:none;}
+
+div.md_tabular {margin:6px 0; font-family: arial,helvetica,sans-serif; }
+div.md_tabular a {font-style:italic; font-family: arial,helvetica,sans-serif;}
+div.md_tabular p {margin:0; padding:1px 0; font-size:95%;}
+div.md_tabular p span {font-style:italic; color:#444;}
+/* end of styles for Metadata format */
+
+/* added in 7.4 for the metadata browser/picker */
+div.sample_data {margin:0 0 0 24px;}
+div.sample_data div {float:left;}
+div.sample_data div.sample_head {font-weight:bold; border:none; margin:6px 10px 2px 1px;}
+.hideoff {
+height:1px;
+left:-1000px;
+overflow:hidden;
+position:absolute;
+top:0px;
+width:1px;
+}
+/* end of metadata browser styles */
+
+/* shortbread styles - view single result page */
+table.result_table {margin:0 0 24px; width:100%; border-collapse:collapse;}
+table.result_table td {vertical-align:top; border-top:1px solid #ddd; padding:3px;}
+h3.result_head {margin:12px 0 0; background:#eee; padding:3px; font-size:100%;}
+h3.result_head span {font-weight:normal;}
+/* end view single result */
+
+/* styles for divs that can be collapsed/expanded */
+div.mdList {
+  border-color: #DDDDDD;
+  border-style: solid;
+  border-width: 0pt 1px 1px;
+  margin: 0pt 0pt 6px 12px;
+  padding: 6px;
+}
+div.mdList h2 {
+  display: none;
+}
+h3.mdHead {
+  background: #EEEEEE none repeat scroll 0%;
+  border: 1px solid #CCCCCC;
+  font-size: 100%;
+  margin: 6px 0pt 0pt 12px;
+  padding: 0px;
+}
+h3.mdHead a {
+  display: block;
+  padding: 2px;
+}
+h3.mdHead a:hover {
+  background: #FFFFCC none repeat scroll 0%;
+}
+/* end of styles for divs that can be collapsed/expanded */
+
+/* styles for a div as a tool bar */
+div.textToolbar {width:97.7%; border:1px solid #ccc; background:#f6f6f6; padding:4px;}
+div.textToolbar a, div.textToolbar img  {
+  margin:2px 6px 2px 0; vertical-align:middle; white-space:nowrap;
+}
+div.textToolbar label {font-size:90%; vertical-align:middle; padding-left:4px;}
+div.textToolbar select {font-size:90%; vertical-align:middle;}
+
+/* end of styles for divs as message previews */
+
+/* styles for a div as a tool bar */
+.previewTextArea {
+background:#FFFFFF none repeat scroll 0%;
+border:2px solid #999999;
+display:none;
+height:112px;
+overflow:auto;
+padding:0px;
+width:459px;
+}
+.previewTextArea div.previewTitle {
+background:#EEEEEE none repeat scroll 0%;
+border-bottom:2px solid #EEEEEE;
+margin:0pt 0pt 4px;
+padding:2px;
+}
+.previewTextArea div.previewTitle a {
+float:right;
+}
+.previewTextArea div.previewTitle h6 {
+float:left;
+font-size:90%;
+margin:0pt;
+}
+.previewTextArea div.previewContent {
+padding:3px;
+}
+/* end of styles for divs as message previews */

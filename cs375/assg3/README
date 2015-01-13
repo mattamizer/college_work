@@ -1,0 +1,34 @@
+***********************
+* ASSIGNMENT 3 README *
+***********************
+
+CLASSES
+------------------
+* Queue.java
+* Stack.java
+* QueueUsingStack.java
+* StackUsingQueue.java
+* EmptyQueueException.java
+* EmptyStackException.java
+* Driver.java
+* Driver2.java
+
+HOW TO USE
+----------
+The Queue and Stack classes can be tested by compiling and running Driver.
+The QueueUsingStack and StackUsingQueue classes can be tested by compiling and running Driver2.
+
+EXPECTED OUTPUT
+---------------
+Stack is empty.
+Stack contains items.
+4
+2
+1
+Exception: Stack is empty!
+Queue is empty.
+Queue contains items.
+2
+3
+4
+Exception: Queue is empty!

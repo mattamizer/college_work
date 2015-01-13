@@ -1,0 +1,10 @@
+11:34:41.489349 IP gir.34312 > by2msg4010513.msnp: tcp 5
+11:34:41.490197 IP gir.49608 > exchdom5.domain: UDP, length 44
+11:34:41.521688 ARP, Request who-has 10.71.1.1 tell richard-vaio, length 46
+11:34:41.535246 IP exchdom5.domain > gir.49608: UDP, length 79
+11:34:41.535469 IP gir.39052 > exchdom5.domain: UDP, length 42
+11:34:41.536851 IP exchdom5.domain > gir.39052: UDP, length 75
+11:34:41.536954 IP gir.56768 > exchdom5.domain: UDP, length 41
+11:34:41.538286 IP exchdom5.domain > gir.56768: UDP, length 79
+11:34:41.538396 IP gir.33821 > exchdom5.domain: UDP, length 40
+11:34:41.539491 IP exchdom5.domain > gir.33821: UDP, length 126

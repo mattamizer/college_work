@@ -1,0 +1,125 @@
+1) matt@GIR:~/Dropbox/college/junior/cs380/assignment05$ awk -F'[ :\t]' '($3+$4+$5) > 100 {print $2 ",", $1}' lab4.data
+Harrington, Mike
+Dobbins, Christian
+Dalsass, Susan
+McNichol, Archie
+Savage, Jody
+Quigley, Guy
+Savage, Dan
+McNeil, Nancy
+Goldenrod, John
+Main, Chet
+Savage, Tom
+Stachelin, Elizabeth
+
+2) matt@GIR:~/Dropbox/college/junior/cs380/assignment05$ awk -F: '$3 < 60 {print $1",", $2}' lab4.data 
+Jody Savage, (206) 548-1278
+Chet Main, (510) 548-5258
+
+3) matt@GIR:~/Dropbox/college/junior/cs380/assignment05$ awk -F: '$5 <= 150 && $5 >= 90 {print $1}' lab4.data 
+Jody Savage
+Chet Main
+
+4) matt@GIR:~/Dropbox/college/junior/cs380/assignment05$ awk -F: '($3+$4+$5)>800 {print $1}' lab4.data
+Dan Savage
+
+5) matt@GIR:~/Dropbox/college/junior/cs380/assignment05$ awk -F: '(($3+$4+$5)/3)>150 {print $1 ",", $2}' lab4.data 
+Mike Harrington, (510) 548-1278
+Archie McNichol, (206) 548-1348
+Guy Quigley, (916) 343-6410
+Dan Savage, (406) 298-7744
+John Goldenrod, (916) 348-4278
+Tom Savage, (408) 926-3456
+Elizabeth Stachelin, (916) 440-1763
+
+6) matt@GIR:~/Dropbox/college/junior/cs380/assignment05$ awk '$2 !~ /916/ {print $1}' lab4.data 
+Mike
+Christian
+Susan
+Archie
+Jody
+Dan
+Nancy
+Chet
+Tom
+
+7) matt@GIR:~/Dropbox/college/junior/cs380/assignment05$ awk '{print NR, $0}' lab4.data 
+1 Mike Harrington:(510) 548-1278:250:100:175                   
+2 Christian Dobbins:(408) 538-2358:155:90:201                   
+3 Susan Dalsass:(206) 654-6279:250:60:50 
+4 Archie McNichol:(206) 548-1348:250:100:175 
+5 Jody Savage:(206) 548-1278:15:188:150 
+6 Guy Quigley:(916) 343-6410:250:100:175 
+7 Dan Savage:(406) 298-7744:450:300:275 
+8 Nancy McNeil:(206) 548-1278:250:80:75 
+9 John Goldenrod:(916) 348-4278:250:100:175 
+10 Chet Main:(510) 548-5258:50:95:135 
+11 Tom Savage:(408) 926-3456:250:168:200 
+12 Elizabeth Stachelin:(916) 440-1763:175:75:300
+
+8) matt@GIR:~/Dropbox/college/junior/cs380/assignment05$ awk -F: '{print $1 " has contributed $" $3+$4+$5}' lab4.data 
+Mike Harrington has contributed $525
+Christian Dobbins has contributed $446
+Susan Dalsass has contributed $360
+Archie McNichol has contributed $525
+Jody Savage has contributed $353
+Guy Quigley has contributed $525
+Dan Savage has contributed $1025
+Nancy McNeil has contributed $405
+John Goldenrod has contributed $525
+Chet Main has contributed $280
+Tom Savage has contributed $618
+Elizabeth Stachelin has contributed $550
+
+9) matt@GIR:~/Dropbox/college/junior/cs380/assignment05$ awk -F: '$1 ~ /Elizabeth/ {print "Corrected 2nd month contribution for", $1, "is $" $4 + 10}' lab4.data 
+Corrected 2nd month contribution for Elizabeth Stachelin is $85
+
+10) matt@GIR:~/Dropbox/college/junior/cs380/assignment05$ awk -F: '$1 ~ /Nancy/ {print $1, "has changed her name to:"; $1 = "Louise McInnes"; print $1}' lab4.data 
+Nancy McNeil has changed her name to:
+Louise McInnes
+
+11) matt@GIR:~/Dropbox/college/junior/cs380/assignment05$ awk -F: -f pwdCheck.awk passwd 
+line 7, no password: bee:*:347:40:Contract Temp.:/home/chanel5/bee:/bin/csh
+line 10, does not have 7 fields: gregc:nkLulOg:7777:30:Greg Champlin FE Chicago	
+
+NOTE: Line 11 actually has 7 fields so it will not be output as having less than 7 as the assignment requests.11) matt@GIR:~/Dropbox/college/junior/cs380/assignment05$ awk -F: -f pwdCheck.awk passwd 
+line 7, no password: bee:*:347:40:Contract Temp.:/home/chanel5/bee:/bin/csh
+line 10, does not have 7 fields: gregc:nkLulOg:7777:30:Greg Champlin FE Chicago	
+
+NOTE: Line 11 actually has 7 fields so it will not be output as having less than 7 as the assignment requests.11) matt@GIR:~/Dropbox/college/junior/cs380/assignment05$ awk -F: -f pwdCheck.awk passwd 
+line 7, no password: bee:*:347:40:Contract Temp.:/home/chanel5/bee:/bin/csh
+line 10, does not have 7 fields: gregc:nkLulOg:7777:30:Greg Champlin FE Chicago	
+
+NOTE: Line 11 actually has 7 fields so it will not be output as having less than 7 as the assignment requests.11) matt@GIR:~/Dropbox/college/junior/cs380/assignment05$ awk -F: -f pwdCheck.awk passwd 
+line 7, no password: bee:*:347:40:Contract Temp.:/home/chanel5/bee:/bin/csh
+line 10, does not have 7 fields: gregc:nkLulOg:7777:30:Greg Champlin FE Chicago	
+
+NOTE: Line 11 actually has 7 fields so it will not be output as having less than 7 as the assignment requests.11) matt@GIR:~/Dropbox/college/junior/cs380/assignment05$ awk -F: -f pwdCheck.awk passwd 
+line 7, no password: bee:*:347:40:Contract Temp.:/home/chanel5/bee:/bin/csh
+line 10, does not have 7 fields: gregc:nkLulOg:7777:30:Greg Champlin FE Chicago	
+
+NOTE: Line 11 actually has 7 fields so it will not be output as having less than 7 as the assignment requests.11) matt@GIR:~/Dropbox/college/junior/cs380/assignment05$ awk -F: -f pwdCheck.awk passwd 
+line 7, no password: bee:*:347:40:Contract Temp.:/home/chanel5/bee:/bin/csh
+line 10, does not have 7 fields: gregc:nkLulOg:7777:30:Greg Champlin FE Chicago	
+
+NOTE: Line 11 actually has 7 fields so it will not be output as having less than 7 as the assignment requests.11) matt@GIR:~/Dropbox/college/junior/cs380/assignment05$ awk -F: -f pwdCheck.awk passwd 
+line 7, no password: bee:*:347:40:Contract Temp.:/home/chanel5/bee:/bin/csh
+line 10, does not have 7 fields: gregc:nkLulOg:7777:30:Greg Champlin FE Chicago	
+
+NOTE: Line 11 actually has 7 fields so it will not be output as having less than 7 as the assignment requests.11) matt@GIR:~/Dropbox/college/junior/cs380/assignment05$ awk -F: -f pwdCheck.awk passwd 
+line 7, no password: bee:*:347:40:Contract Temp.:/home/chanel5/bee:/bin/csh
+line 10, does not have 7 fields: gregc:nkLulOg:7777:30:Greg Champlin FE Chicago	
+
+NOTE: Line 11 actually has 7 fields so it will not be output as having less than 7 as the assignment requests.11) matt@GIR:~/Dropbox/college/junior/cs380/assignment05$ awk -F: -f pwdCheck.awk passwd 
+line 7, no password: bee:*:347:40:Contract Temp.:/home/chanel5/bee:/bin/csh
+line 10, does not have 7 fields: gregc:nkLulOg:7777:30:Greg Champlin FE Chicago	
+
+NOTE: Line 11 actually has 7 fields so it will not be output as having less than 7 as the assignment requests.11) matt@GIR:~/Dropbox/college/junior/cs380/assignment05$ awk -F: -f pwdCheck.awk passwd 
+line 7, no password: bee:*:347:40:Contract Temp.:/home/chanel5/bee:/bin/csh
+line 10, does not have 7 fields: gregc:nkLulOg:7777:30:Greg Champlin FE Chicago	
+
+NOTE: Line 11 actually has 7 fields so it will not be output as having less than 7 as the assignment requests.11) matt@GIR:~/Dropbox/college/junior/cs380/assignment05$ awk -F: -f pwdCheck.awk passwd 
+line 7, no password: bee:*:347:40:Contract Temp.:/home/chanel5/bee:/bin/csh
+line 10, does not have 7 fields: gregc:nkLulOg:7777:30:Greg Champlin FE Chicago	
+
+NOTE: Line 11 actually has 7 fields so it will not be output as having less than 7 as the assignment requests.
